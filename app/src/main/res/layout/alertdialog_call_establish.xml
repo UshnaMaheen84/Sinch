@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <!--<TextView-->
+        <!--android:id="@+id/userName1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="On Call ..."-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="30sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <ImageButton
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_call_green_24dp" />
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userName1"
+        android:text="User name"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/CallEndBtn"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_call_end_red_24dp" />
+</LinearLayout>
+

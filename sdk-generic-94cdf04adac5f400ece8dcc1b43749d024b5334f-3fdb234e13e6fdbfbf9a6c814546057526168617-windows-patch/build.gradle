@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('sdk-generic-94cdf04adac5f400ece8dcc1b43749d024b5334f-3fdb234e13e6fdbfbf9a6c814546057526168617-windows-patch.jar'))
